@@ -1,0 +1,306 @@
+[
+  {
+    "name": "tiny_1",
+    "universe_size": 10,
+    "num_sets": 6,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 2.8133392333984375e-05,
+        "cover_size": null,
+        "status": "INFEASIBLE",
+        "accuracy": null
+      },
+      "Greedy": {
+        "time": 1.2636184692382812e-05,
+        "cover_size": 3,
+        "status": "PARTIAL",
+        "accuracy": null
+      }
+    }
+  },
+  {
+    "name": "tiny_2",
+    "universe_size": 10,
+    "num_sets": 6,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.8596649169921875e-05,
+        "cover_size": 4,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 7.3909759521484375e-06,
+        "cover_size": 4,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_1",
+    "universe_size": 15,
+    "num_sets": 8,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 7.772445678710938e-05,
+        "cover_size": null,
+        "status": "INFEASIBLE",
+        "accuracy": null
+      },
+      "Greedy": {
+        "time": 8.344650268554688e-06,
+        "cover_size": 4,
+        "status": "PARTIAL",
+        "accuracy": null
+      }
+    }
+  },
+  {
+    "name": "small_2",
+    "universe_size": 15,
+    "num_sets": 8,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 4.410743713378906e-05,
+        "cover_size": 4,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 9.5367431640625e-06,
+        "cover_size": 5,
+        "status": "COMPLETE",
+        "accuracy": 80.0
+      }
+    }
+  },
+  {
+    "name": "medium_1",
+    "universe_size": 20,
+    "num_sets": 10,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0003838539123535156,
+        "cover_size": null,
+        "status": "INFEASIBLE",
+        "accuracy": null
+      },
+      "Greedy": {
+        "time": 1.430511474609375e-05,
+        "cover_size": 6,
+        "status": "PARTIAL",
+        "accuracy": null
+      }
+    }
+  },
+  {
+    "name": "medium_2",
+    "universe_size": 20,
+    "num_sets": 10,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.000415802001953125,
+        "cover_size": null,
+        "status": "INFEASIBLE",
+        "accuracy": null
+      },
+      "Greedy": {
+        "time": 1.4066696166992188e-05,
+        "cover_size": 5,
+        "status": "PARTIAL",
+        "accuracy": null
+      }
+    }
+  },
+  {
+    "name": "medium_large_1",
+    "universe_size": 25,
+    "num_sets": 12,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0018112659454345703,
+        "cover_size": null,
+        "status": "INFEASIBLE",
+        "accuracy": null
+      },
+      "Greedy": {
+        "time": 1.71661376953125e-05,
+        "cover_size": 6,
+        "status": "PARTIAL",
+        "accuracy": null
+      }
+    }
+  },
+  {
+    "name": "medium_large_2",
+    "universe_size": 25,
+    "num_sets": 12,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0017571449279785156,
+        "cover_size": null,
+        "status": "INFEASIBLE",
+        "accuracy": null
+      },
+      "Greedy": {
+        "time": 1.71661376953125e-05,
+        "cover_size": 5,
+        "status": "PARTIAL",
+        "accuracy": null
+      }
+    }
+  },
+  {
+    "name": "large_1",
+    "universe_size": 30,
+    "num_sets": 14,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0016460418701171875,
+        "cover_size": 6,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 2.0265579223632812e-05,
+        "cover_size": 6,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "large_2",
+    "universe_size": 30,
+    "num_sets": 14,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0043795108795166016,
+        "cover_size": 8,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 2.6702880859375e-05,
+        "cover_size": 8,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xlarge_1",
+    "universe_size": 35,
+    "num_sets": 16,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.009014606475830078,
+        "cover_size": 7,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.0994415283203125e-05,
+        "cover_size": 7,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xlarge_2",
+    "universe_size": 35,
+    "num_sets": 16,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0011372566223144531,
+        "cover_size": 5,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 2.6464462280273438e-05,
+        "cover_size": 5,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xxlarge_1",
+    "universe_size": 40,
+    "num_sets": 18,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.03776693344116211,
+        "cover_size": 8,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.552436828613281e-05,
+        "cover_size": 8,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xxlarge_2",
+    "universe_size": 40,
+    "num_sets": 18,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.007147789001464844,
+        "cover_size": 6,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.5762786865234375e-05,
+        "cover_size": 7,
+        "status": "COMPLETE",
+        "accuracy": 85.71428571428571
+      }
+    }
+  },
+  {
+    "name": "huge_1",
+    "universe_size": 50,
+    "num_sets": 22,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.3232147693634033,
+        "cover_size": 8,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 6.175041198730469e-05,
+        "cover_size": 9,
+        "status": "COMPLETE",
+        "accuracy": 88.88888888888889
+      }
+    }
+  },
+  {
+    "name": "huge_2",
+    "universe_size": 50,
+    "num_sets": 22,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.036486148834228516,
+        "cover_size": 6,
+        "status": "OPTIMAL",
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 4.7206878662109375e-05,
+        "cover_size": 6,
+        "status": "COMPLETE",
+        "accuracy": 100.0
+      }
+    }
+  }
+]

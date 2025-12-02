@@ -1,0 +1,338 @@
+[
+  {
+    "name": "tiny_1",
+    "n_vertices": 6,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.8358230590820312e-05,
+        "cover_size": 3,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 3.5762786865234375e-06,
+        "cover_size": 4,
+        "accuracy": 75.0
+      },
+      "LP Rounding": {
+        "time": 0.0016889572143554688,
+        "cover_size": 5,
+        "accuracy": 60.0
+      }
+    }
+  },
+  {
+    "name": "tiny_2",
+    "n_vertices": 6,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.1444091796875e-05,
+        "cover_size": 2,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 2.384185791015625e-06,
+        "cover_size": 4,
+        "accuracy": 50.0
+      },
+      "LP Rounding": {
+        "time": 0.0008101463317871094,
+        "cover_size": 2,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_1",
+    "n_vertices": 8,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 4.076957702636719e-05,
+        "cover_size": 4,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 3.0994415283203125e-06,
+        "cover_size": 6,
+        "accuracy": 66.66666666666666
+      },
+      "LP Rounding": {
+        "time": 0.0008022785186767578,
+        "cover_size": 4,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_2",
+    "n_vertices": 8,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 6.127357482910156e-05,
+        "cover_size": 5,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 3.5762786865234375e-06,
+        "cover_size": 6,
+        "accuracy": 83.33333333333334
+      },
+      "LP Rounding": {
+        "time": 0.0007710456848144531,
+        "cover_size": 8,
+        "accuracy": 62.5
+      }
+    }
+  },
+  {
+    "name": "medium_1",
+    "n_vertices": 10,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.00021457672119140625,
+        "cover_size": 6,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 4.5299530029296875e-06,
+        "cover_size": 10,
+        "accuracy": 60.0
+      },
+      "LP Rounding": {
+        "time": 0.000774383544921875,
+        "cover_size": 10,
+        "accuracy": 60.0
+      }
+    }
+  },
+  {
+    "name": "medium_2",
+    "n_vertices": 10,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0001456737518310547,
+        "cover_size": 5,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 4.0531158447265625e-06,
+        "cover_size": 8,
+        "accuracy": 62.5
+      },
+      "LP Rounding": {
+        "time": 0.0007801055908203125,
+        "cover_size": 10,
+        "accuracy": 50.0
+      }
+    }
+  },
+  {
+    "name": "medium_large_1",
+    "n_vertices": 12,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0006706714630126953,
+        "cover_size": 6,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 4.76837158203125e-06,
+        "cover_size": 12,
+        "accuracy": 50.0
+      },
+      "LP Rounding": {
+        "time": 0.0007939338684082031,
+        "cover_size": 6,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "medium_large_2",
+    "n_vertices": 12,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.000896453857421875,
+        "cover_size": 7,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 5.0067901611328125e-06,
+        "cover_size": 12,
+        "accuracy": 58.333333333333336
+      },
+      "LP Rounding": {
+        "time": 0.0008046627044677734,
+        "cover_size": 12,
+        "accuracy": 58.333333333333336
+      }
+    }
+  },
+  {
+    "name": "large_1",
+    "n_vertices": 14,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0037992000579833984,
+        "cover_size": 8,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 6.4373016357421875e-06,
+        "cover_size": 14,
+        "accuracy": 57.14285714285714
+      },
+      "LP Rounding": {
+        "time": 0.0010290145874023438,
+        "cover_size": 13,
+        "accuracy": 61.53846153846154
+      }
+    }
+  },
+  {
+    "name": "large_2",
+    "n_vertices": 14,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.004894733428955078,
+        "cover_size": 10,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 6.67572021484375e-06,
+        "cover_size": 12,
+        "accuracy": 83.33333333333334
+      },
+      "LP Rounding": {
+        "time": 0.0009212493896484375,
+        "cover_size": 14,
+        "accuracy": 71.42857142857143
+      }
+    }
+  },
+  {
+    "name": "xlarge_1",
+    "n_vertices": 16,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.017299890518188477,
+        "cover_size": 10,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 7.867813110351562e-06,
+        "cover_size": 14,
+        "accuracy": 71.42857142857143
+      },
+      "LP Rounding": {
+        "time": 0.0010859966278076172,
+        "cover_size": 16,
+        "accuracy": 62.5
+      }
+    }
+  },
+  {
+    "name": "xlarge_2",
+    "n_vertices": 16,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.019169092178344727,
+        "cover_size": 11,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 8.821487426757812e-06,
+        "cover_size": 14,
+        "accuracy": 78.57142857142857
+      },
+      "LP Rounding": {
+        "time": 0.0010857582092285156,
+        "cover_size": 16,
+        "accuracy": 68.75
+      }
+    }
+  },
+  {
+    "name": "xxlarge_1",
+    "n_vertices": 18,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.06905269622802734,
+        "cover_size": 11,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 9.298324584960938e-06,
+        "cover_size": 16,
+        "accuracy": 68.75
+      },
+      "LP Rounding": {
+        "time": 0.001249551773071289,
+        "cover_size": 17,
+        "accuracy": 64.70588235294117
+      }
+    }
+  },
+  {
+    "name": "xxlarge_2",
+    "n_vertices": 18,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.08617663383483887,
+        "cover_size": 13,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 9.5367431640625e-06,
+        "cover_size": 16,
+        "accuracy": 81.25
+      },
+      "LP Rounding": {
+        "time": 0.001161813735961914,
+        "cover_size": 18,
+        "accuracy": 72.22222222222221
+      }
+    }
+  },
+  {
+    "name": "huge_1",
+    "n_vertices": 22,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.3602428436279297,
+        "cover_size": 16,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 9.584426879882812e-05,
+        "cover_size": 20,
+        "accuracy": 80.0
+      },
+      "LP Rounding": {
+        "time": 0.0014276504516601562,
+        "cover_size": 22,
+        "accuracy": 72.72727272727273
+      }
+    }
+  },
+  {
+    "name": "huge_2",
+    "n_vertices": 22,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.0953419208526611,
+        "cover_size": 13,
+        "accuracy": 100.0
+      },
+      "Maximal Matching": {
+        "time": 3.409385681152344e-05,
+        "cover_size": 20,
+        "accuracy": 65.0
+      },
+      "LP Rounding": {
+        "time": 0.0015473365783691406,
+        "cover_size": 22,
+        "accuracy": 59.09090909090909
+      }
+    }
+  }
+]
