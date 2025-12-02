@@ -1,0 +1,1692 @@
+{
+  "3sat": [
+    {
+      "name": "tiny_1",
+      "n_vars": 5,
+      "n_clauses": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.2159347534179688e-05,
+          "status": "SAT",
+          "num_satisfied": 10,
+          "total_clauses": 10,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.003598451614379883,
+          "status": "COMPLETE",
+          "num_satisfied": 10,
+          "total_clauses": 10,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 5.340576171875e-05,
+          "status": "COMPLETE",
+          "num_satisfied": 10,
+          "total_clauses": 10,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "tiny_2",
+      "n_vars": 5,
+      "n_clauses": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 5.245208740234375e-06,
+          "status": "SAT",
+          "num_satisfied": 10,
+          "total_clauses": 10,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.0036301612854003906,
+          "status": "COMPLETE",
+          "num_satisfied": 10,
+          "total_clauses": 10,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 4.9114227294921875e-05,
+          "status": "COMPLETE",
+          "num_satisfied": 10,
+          "total_clauses": 10,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_1",
+      "n_vars": 7,
+      "n_clauses": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 7.319450378417969e-05,
+          "status": "SAT",
+          "num_satisfied": 18,
+          "total_clauses": 18,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.006208181381225586,
+          "status": "COMPLETE",
+          "num_satisfied": 18,
+          "total_clauses": 18,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 4.9591064453125e-05,
+          "status": "COMPLETE",
+          "num_satisfied": 18,
+          "total_clauses": 18,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_2",
+      "n_vars": 7,
+      "n_clauses": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 5.14984130859375e-05,
+          "status": "SAT",
+          "num_satisfied": 18,
+          "total_clauses": 18,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.0061817169189453125,
+          "status": "COMPLETE",
+          "num_satisfied": 18,
+          "total_clauses": 18,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 5.1021575927734375e-05,
+          "status": "COMPLETE",
+          "num_satisfied": 18,
+          "total_clauses": 18,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_1",
+      "n_vars": 9,
+      "n_clauses": 27,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.00023603439331054688,
+          "status": "SAT",
+          "num_satisfied": 27,
+          "total_clauses": 27,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.008544683456420898,
+          "status": "COMPLETE",
+          "num_satisfied": 27,
+          "total_clauses": 27,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 5.412101745605469e-05,
+          "status": "COMPLETE",
+          "num_satisfied": 27,
+          "total_clauses": 27,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_2",
+      "n_vars": 9,
+      "n_clauses": 27,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 9.441375732421875e-05,
+          "status": "SAT",
+          "num_satisfied": 27,
+          "total_clauses": 27,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.008523941040039062,
+          "status": "COMPLETE",
+          "num_satisfied": 27,
+          "total_clauses": 27,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.00014209747314453125,
+          "status": "COMPLETE",
+          "num_satisfied": 27,
+          "total_clauses": 27,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_1",
+      "n_vars": 11,
+      "n_clauses": 35,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0023119449615478516,
+          "status": "SAT",
+          "num_satisfied": 35,
+          "total_clauses": 35,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.010843992233276367,
+          "status": "COMPLETE",
+          "num_satisfied": 35,
+          "total_clauses": 35,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 6.437301635742188e-05,
+          "status": "COMPLETE",
+          "num_satisfied": 35,
+          "total_clauses": 35,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_2",
+      "n_vars": 11,
+      "n_clauses": 35,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0004987716674804688,
+          "status": "SAT",
+          "num_satisfied": 35,
+          "total_clauses": 35,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.010692119598388672,
+          "status": "COMPLETE",
+          "num_satisfied": 35,
+          "total_clauses": 35,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.0001804828643798828,
+          "status": "COMPLETE",
+          "num_satisfied": 34,
+          "total_clauses": 35,
+          "accuracy": 97.14285714285714
+        }
+      }
+    },
+    {
+      "name": "large_1",
+      "n_vars": 13,
+      "n_clauses": 42,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.005771636962890625,
+          "status": "SAT",
+          "num_satisfied": 42,
+          "total_clauses": 42,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.012720346450805664,
+          "status": "COMPLETE",
+          "num_satisfied": 42,
+          "total_clauses": 42,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.0002357959747314453,
+          "status": "COMPLETE",
+          "num_satisfied": 42,
+          "total_clauses": 42,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "large_2",
+      "n_vars": 13,
+      "n_clauses": 42,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.00266265869140625,
+          "status": "SAT",
+          "num_satisfied": 42,
+          "total_clauses": 42,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.012738227844238281,
+          "status": "COMPLETE",
+          "num_satisfied": 42,
+          "total_clauses": 42,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.0002586841583251953,
+          "status": "COMPLETE",
+          "num_satisfied": 40,
+          "total_clauses": 42,
+          "accuracy": 95.23809523809523
+        }
+      }
+    },
+    {
+      "name": "xlarge_1",
+      "n_vars": 15,
+      "n_clauses": 50,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.07270383834838867,
+          "status": "SAT",
+          "num_satisfied": 50,
+          "total_clauses": 50,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.014260292053222656,
+          "status": "COMPLETE",
+          "num_satisfied": 50,
+          "total_clauses": 50,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.00036454200744628906,
+          "status": "COMPLETE",
+          "num_satisfied": 49,
+          "total_clauses": 50,
+          "accuracy": 98.0
+        }
+      }
+    },
+    {
+      "name": "xlarge_2",
+      "n_vars": 15,
+      "n_clauses": 50,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.009074926376342773,
+          "status": "SAT",
+          "num_satisfied": 50,
+          "total_clauses": 50,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.01455545425415039,
+          "status": "COMPLETE",
+          "num_satisfied": 50,
+          "total_clauses": 50,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.0005197525024414062,
+          "status": "COMPLETE",
+          "num_satisfied": 50,
+          "total_clauses": 50,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_1",
+      "n_vars": 17,
+      "n_clauses": 60,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.05949854850769043,
+          "status": "SAT",
+          "num_satisfied": 60,
+          "total_clauses": 60,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.017290115356445312,
+          "status": "COMPLETE",
+          "num_satisfied": 59,
+          "total_clauses": 60,
+          "accuracy": 98.33333333333333
+        },
+        "Flipping Literals": {
+          "time": 0.00044608116149902344,
+          "status": "COMPLETE",
+          "num_satisfied": 57,
+          "total_clauses": 60,
+          "accuracy": 95.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_2",
+      "n_vars": 17,
+      "n_clauses": 60,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.00909566879272461,
+          "status": "SAT",
+          "num_satisfied": 60,
+          "total_clauses": 60,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.01762700080871582,
+          "status": "COMPLETE",
+          "num_satisfied": 59,
+          "total_clauses": 60,
+          "accuracy": 98.33333333333333
+        },
+        "Flipping Literals": {
+          "time": 0.0007245540618896484,
+          "status": "COMPLETE",
+          "num_satisfied": 57,
+          "total_clauses": 60,
+          "accuracy": 95.0
+        }
+      }
+    },
+    {
+      "name": "huge_1",
+      "n_vars": 20,
+      "n_clauses": 80,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 2.7754971981048584,
+          "status": "SAT",
+          "num_satisfied": 80,
+          "total_clauses": 80,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.02217411994934082,
+          "status": "COMPLETE",
+          "num_satisfied": 77,
+          "total_clauses": 80,
+          "accuracy": 96.25
+        },
+        "Flipping Literals": {
+          "time": 0.0010068416595458984,
+          "status": "COMPLETE",
+          "num_satisfied": 76,
+          "total_clauses": 80,
+          "accuracy": 95.0
+        }
+      }
+    },
+    {
+      "name": "huge_2",
+      "n_vars": 20,
+      "n_clauses": 80,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 3.141885995864868,
+          "status": "UNSAT",
+          "num_satisfied": 0,
+          "total_clauses": 80,
+          "accuracy": 100.0
+        },
+        "Randomization": {
+          "time": 0.02212047576904297,
+          "status": "COMPLETE",
+          "num_satisfied": 77,
+          "total_clauses": 80,
+          "accuracy": 100.0
+        },
+        "Flipping Literals": {
+          "time": 0.0017688274383544922,
+          "status": "COMPLETE",
+          "num_satisfied": 76,
+          "total_clauses": 80,
+          "accuracy": 100.0
+        }
+      }
+    }
+  ],
+  "vertex_cover": [
+    {
+      "name": "tiny_1",
+      "n_vertices": 6,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.8358230590820312e-05,
+          "cover_size": 3,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 3.5762786865234375e-06,
+          "cover_size": 4,
+          "accuracy": 75.0
+        },
+        "LP Rounding": {
+          "time": 0.0016889572143554688,
+          "cover_size": 5,
+          "accuracy": 60.0
+        }
+      }
+    },
+    {
+      "name": "tiny_2",
+      "n_vertices": 6,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.1444091796875e-05,
+          "cover_size": 2,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 2.384185791015625e-06,
+          "cover_size": 4,
+          "accuracy": 50.0
+        },
+        "LP Rounding": {
+          "time": 0.0008101463317871094,
+          "cover_size": 2,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_1",
+      "n_vertices": 8,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 4.076957702636719e-05,
+          "cover_size": 4,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 3.0994415283203125e-06,
+          "cover_size": 6,
+          "accuracy": 66.66666666666666
+        },
+        "LP Rounding": {
+          "time": 0.0008022785186767578,
+          "cover_size": 4,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_2",
+      "n_vertices": 8,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 6.127357482910156e-05,
+          "cover_size": 5,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 3.5762786865234375e-06,
+          "cover_size": 6,
+          "accuracy": 83.33333333333334
+        },
+        "LP Rounding": {
+          "time": 0.0007710456848144531,
+          "cover_size": 8,
+          "accuracy": 62.5
+        }
+      }
+    },
+    {
+      "name": "medium_1",
+      "n_vertices": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.00021457672119140625,
+          "cover_size": 6,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 4.5299530029296875e-06,
+          "cover_size": 10,
+          "accuracy": 60.0
+        },
+        "LP Rounding": {
+          "time": 0.000774383544921875,
+          "cover_size": 10,
+          "accuracy": 60.0
+        }
+      }
+    },
+    {
+      "name": "medium_2",
+      "n_vertices": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0001456737518310547,
+          "cover_size": 5,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 4.0531158447265625e-06,
+          "cover_size": 8,
+          "accuracy": 62.5
+        },
+        "LP Rounding": {
+          "time": 0.0007801055908203125,
+          "cover_size": 10,
+          "accuracy": 50.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_1",
+      "n_vertices": 12,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0006706714630126953,
+          "cover_size": 6,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 4.76837158203125e-06,
+          "cover_size": 12,
+          "accuracy": 50.0
+        },
+        "LP Rounding": {
+          "time": 0.0007939338684082031,
+          "cover_size": 6,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_2",
+      "n_vertices": 12,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.000896453857421875,
+          "cover_size": 7,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 5.0067901611328125e-06,
+          "cover_size": 12,
+          "accuracy": 58.333333333333336
+        },
+        "LP Rounding": {
+          "time": 0.0008046627044677734,
+          "cover_size": 12,
+          "accuracy": 58.333333333333336
+        }
+      }
+    },
+    {
+      "name": "large_1",
+      "n_vertices": 14,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0037992000579833984,
+          "cover_size": 8,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 6.4373016357421875e-06,
+          "cover_size": 14,
+          "accuracy": 57.14285714285714
+        },
+        "LP Rounding": {
+          "time": 0.0010290145874023438,
+          "cover_size": 13,
+          "accuracy": 61.53846153846154
+        }
+      }
+    },
+    {
+      "name": "large_2",
+      "n_vertices": 14,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.004894733428955078,
+          "cover_size": 10,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 6.67572021484375e-06,
+          "cover_size": 12,
+          "accuracy": 83.33333333333334
+        },
+        "LP Rounding": {
+          "time": 0.0009212493896484375,
+          "cover_size": 14,
+          "accuracy": 71.42857142857143
+        }
+      }
+    },
+    {
+      "name": "xlarge_1",
+      "n_vertices": 16,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.017299890518188477,
+          "cover_size": 10,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 7.867813110351562e-06,
+          "cover_size": 14,
+          "accuracy": 71.42857142857143
+        },
+        "LP Rounding": {
+          "time": 0.0010859966278076172,
+          "cover_size": 16,
+          "accuracy": 62.5
+        }
+      }
+    },
+    {
+      "name": "xlarge_2",
+      "n_vertices": 16,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.019169092178344727,
+          "cover_size": 11,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 8.821487426757812e-06,
+          "cover_size": 14,
+          "accuracy": 78.57142857142857
+        },
+        "LP Rounding": {
+          "time": 0.0010857582092285156,
+          "cover_size": 16,
+          "accuracy": 68.75
+        }
+      }
+    },
+    {
+      "name": "xxlarge_1",
+      "n_vertices": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.06905269622802734,
+          "cover_size": 11,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 9.298324584960938e-06,
+          "cover_size": 16,
+          "accuracy": 68.75
+        },
+        "LP Rounding": {
+          "time": 0.001249551773071289,
+          "cover_size": 17,
+          "accuracy": 64.70588235294117
+        }
+      }
+    },
+    {
+      "name": "xxlarge_2",
+      "n_vertices": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.08617663383483887,
+          "cover_size": 13,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 9.5367431640625e-06,
+          "cover_size": 16,
+          "accuracy": 81.25
+        },
+        "LP Rounding": {
+          "time": 0.001161813735961914,
+          "cover_size": 18,
+          "accuracy": 72.22222222222221
+        }
+      }
+    },
+    {
+      "name": "huge_1",
+      "n_vertices": 22,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.3602428436279297,
+          "cover_size": 16,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 9.584426879882812e-05,
+          "cover_size": 20,
+          "accuracy": 80.0
+        },
+        "LP Rounding": {
+          "time": 0.0014276504516601562,
+          "cover_size": 22,
+          "accuracy": 72.72727272727273
+        }
+      }
+    },
+    {
+      "name": "huge_2",
+      "n_vertices": 22,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.0953419208526611,
+          "cover_size": 13,
+          "accuracy": 100.0
+        },
+        "Maximal Matching": {
+          "time": 3.409385681152344e-05,
+          "cover_size": 20,
+          "accuracy": 65.0
+        },
+        "LP Rounding": {
+          "time": 0.0015473365783691406,
+          "cover_size": 22,
+          "accuracy": 59.09090909090909
+        }
+      }
+    }
+  ],
+  "max_clique": [
+    {
+      "name": "tiny_1",
+      "n_vertices": 6,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.71661376953125e-05,
+          "clique_size": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.811981201171875e-05,
+          "clique_size": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "tiny_2",
+      "n_vertices": 6,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.3589859008789062e-05,
+          "clique_size": 2,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 6.4373016357421875e-06,
+          "clique_size": 2,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_1",
+      "n_vertices": 8,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 5.0067901611328125e-05,
+          "clique_size": 2,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 5.7220458984375e-06,
+          "clique_size": 2,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_2",
+      "n_vertices": 8,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 3.743171691894531e-05,
+          "clique_size": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 7.3909759521484375e-06,
+          "clique_size": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_1",
+      "n_vertices": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.00020742416381835938,
+          "clique_size": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 7.62939453125e-06,
+          "clique_size": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_2",
+      "n_vertices": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.00018644332885742188,
+          "clique_size": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 7.867813110351562e-06,
+          "clique_size": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_1",
+      "n_vertices": 12,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0007634162902832031,
+          "clique_size": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 9.298324584960938e-06,
+          "clique_size": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_2",
+      "n_vertices": 12,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.000705718994140625,
+          "clique_size": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 9.298324584960938e-06,
+          "clique_size": 3,
+          "accuracy": 75.0
+        }
+      }
+    },
+    {
+      "name": "large_1",
+      "n_vertices": 14,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.003114461898803711,
+          "clique_size": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.2159347534179688e-05,
+          "clique_size": 4,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "large_2",
+      "n_vertices": 14,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0027818679809570312,
+          "clique_size": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.4543533325195312e-05,
+          "clique_size": 4,
+          "accuracy": 80.0
+        }
+      }
+    },
+    {
+      "name": "xlarge_1",
+      "n_vertices": 16,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.01001429557800293,
+          "clique_size": 6,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.7881393432617188e-05,
+          "clique_size": 6,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xlarge_2",
+      "n_vertices": 16,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.012502193450927734,
+          "clique_size": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.3113021850585938e-05,
+          "clique_size": 4,
+          "accuracy": 80.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_1",
+      "n_vertices": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.046181440353393555,
+          "clique_size": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.5735626220703125e-05,
+          "clique_size": 4,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_2",
+      "n_vertices": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.052464962005615234,
+          "clique_size": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 4.1961669921875e-05,
+          "clique_size": 4,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "huge_1",
+      "n_vertices": 22,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.6991586685180664,
+          "clique_size": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 4.7206878662109375e-05,
+          "clique_size": 4,
+          "accuracy": 80.0
+        }
+      }
+    },
+    {
+      "name": "huge_2",
+      "n_vertices": 22,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.7374119758605957,
+          "clique_size": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 5.3882598876953125e-05,
+          "clique_size": 4,
+          "accuracy": 100.0
+        }
+      }
+    }
+  ],
+  "graph_coloring": [
+    {
+      "name": "tiny_1",
+      "n_vertices": 6,
+      "algorithms": {
+        "Backtracking": {
+          "time": 2.3365020751953125e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 1.4781951904296875e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 4.5299530029296875e-06,
+          "num_colors": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "tiny_2",
+      "n_vertices": 6,
+      "algorithms": {
+        "Backtracking": {
+          "time": 7.867813110351562e-06,
+          "num_colors": 2,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 7.152557373046875e-06,
+          "num_colors": 2,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.5762786865234375e-06,
+          "num_colors": 2,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_1",
+      "n_vertices": 8,
+      "algorithms": {
+        "Backtracking": {
+          "time": 2.09808349609375e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 1.1920928955078125e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.0994415283203125e-06,
+          "num_colors": 3,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_2",
+      "n_vertices": 8,
+      "algorithms": {
+        "Backtracking": {
+          "time": 6.9141387939453125e-06,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 1.239776611328125e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.337860107421875e-06,
+          "num_colors": 4,
+          "accuracy": 75.0
+        }
+      }
+    },
+    {
+      "name": "medium_1",
+      "n_vertices": 10,
+      "algorithms": {
+        "Backtracking": {
+          "time": 3.552436828613281e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 1.6689300537109375e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 4.0531158447265625e-06,
+          "num_colors": 4,
+          "accuracy": 75.0
+        }
+      }
+    },
+    {
+      "name": "medium_2",
+      "n_vertices": 10,
+      "algorithms": {
+        "Backtracking": {
+          "time": 1.0251998901367188e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 1.5735626220703125e-05,
+          "num_colors": 3,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.814697265625e-06,
+          "num_colors": 4,
+          "accuracy": 75.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_1",
+      "n_vertices": 12,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.00010967254638671875,
+          "num_colors": 4,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 2.288818359375e-05,
+          "num_colors": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 5.245208740234375e-06,
+          "num_colors": 4,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "medium_large_2",
+      "n_vertices": 12,
+      "algorithms": {
+        "Backtracking": {
+          "time": 4.8160552978515625e-05,
+          "num_colors": 4,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 2.384185791015625e-05,
+          "num_colors": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 4.76837158203125e-06,
+          "num_colors": 5,
+          "accuracy": 80.0
+        }
+      }
+    },
+    {
+      "name": "large_1",
+      "n_vertices": 14,
+      "algorithms": {
+        "Backtracking": {
+          "time": 4.291534423828125e-05,
+          "num_colors": 4,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 3.552436828613281e-05,
+          "num_colors": 4,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.049041748046875e-05,
+          "num_colors": 5,
+          "accuracy": 80.0
+        }
+      }
+    },
+    {
+      "name": "large_2",
+      "n_vertices": 14,
+      "algorithms": {
+        "Backtracking": {
+          "time": 9.655952453613281e-05,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 3.552436828613281e-05,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 6.67572021484375e-06,
+          "num_colors": 6,
+          "accuracy": 83.33333333333334
+        }
+      }
+    },
+    {
+      "name": "xlarge_1",
+      "n_vertices": 16,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.008098363876342773,
+          "num_colors": 6,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 4.696846008300781e-05,
+          "num_colors": 6,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 7.152557373046875e-06,
+          "num_colors": 6,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xlarge_2",
+      "n_vertices": 16,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.0007545948028564453,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 4.9591064453125e-05,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 8.106231689453125e-06,
+          "num_colors": 6,
+          "accuracy": 83.33333333333334
+        }
+      }
+    },
+    {
+      "name": "xxlarge_1",
+      "n_vertices": 18,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.0010483264923095703,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 5.8650970458984375e-05,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 8.58306884765625e-06,
+          "num_colors": 5,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_2",
+      "n_vertices": 18,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.0009152889251708984,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 6.747245788574219e-05,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 9.298324584960938e-06,
+          "num_colors": 5,
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "huge_1",
+      "n_vertices": 22,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.004775285720825195,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 0.00010323524475097656,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.2636184692382812e-05,
+          "num_colors": 6,
+          "accuracy": 83.33333333333334
+        }
+      }
+    },
+    {
+      "name": "huge_2",
+      "n_vertices": 22,
+      "algorithms": {
+        "Backtracking": {
+          "time": 0.015338420867919922,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "DSatur": {
+          "time": 9.72747802734375e-05,
+          "num_colors": 5,
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 1.1682510375976562e-05,
+          "num_colors": 6,
+          "accuracy": 83.33333333333334
+        }
+      }
+    }
+  ],
+  "set_cover": [
+    {
+      "name": "tiny_1",
+      "universe_size": 10,
+      "num_sets": 6,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 2.8133392333984375e-05,
+          "cover_size": null,
+          "status": "INFEASIBLE",
+          "accuracy": null
+        },
+        "Greedy": {
+          "time": 1.2636184692382812e-05,
+          "cover_size": 3,
+          "status": "PARTIAL",
+          "accuracy": null
+        }
+      }
+    },
+    {
+      "name": "tiny_2",
+      "universe_size": 10,
+      "num_sets": 6,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 1.8596649169921875e-05,
+          "cover_size": 4,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 7.3909759521484375e-06,
+          "cover_size": 4,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "small_1",
+      "universe_size": 15,
+      "num_sets": 8,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 7.772445678710938e-05,
+          "cover_size": null,
+          "status": "INFEASIBLE",
+          "accuracy": null
+        },
+        "Greedy": {
+          "time": 8.344650268554688e-06,
+          "cover_size": 4,
+          "status": "PARTIAL",
+          "accuracy": null
+        }
+      }
+    },
+    {
+      "name": "small_2",
+      "universe_size": 15,
+      "num_sets": 8,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 4.410743713378906e-05,
+          "cover_size": 4,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 9.5367431640625e-06,
+          "cover_size": 5,
+          "status": "COMPLETE",
+          "accuracy": 80.0
+        }
+      }
+    },
+    {
+      "name": "medium_1",
+      "universe_size": 20,
+      "num_sets": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0003838539123535156,
+          "cover_size": null,
+          "status": "INFEASIBLE",
+          "accuracy": null
+        },
+        "Greedy": {
+          "time": 1.430511474609375e-05,
+          "cover_size": 6,
+          "status": "PARTIAL",
+          "accuracy": null
+        }
+      }
+    },
+    {
+      "name": "medium_2",
+      "universe_size": 20,
+      "num_sets": 10,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.000415802001953125,
+          "cover_size": null,
+          "status": "INFEASIBLE",
+          "accuracy": null
+        },
+        "Greedy": {
+          "time": 1.4066696166992188e-05,
+          "cover_size": 5,
+          "status": "PARTIAL",
+          "accuracy": null
+        }
+      }
+    },
+    {
+      "name": "medium_large_1",
+      "universe_size": 25,
+      "num_sets": 12,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0018112659454345703,
+          "cover_size": null,
+          "status": "INFEASIBLE",
+          "accuracy": null
+        },
+        "Greedy": {
+          "time": 1.71661376953125e-05,
+          "cover_size": 6,
+          "status": "PARTIAL",
+          "accuracy": null
+        }
+      }
+    },
+    {
+      "name": "medium_large_2",
+      "universe_size": 25,
+      "num_sets": 12,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0017571449279785156,
+          "cover_size": null,
+          "status": "INFEASIBLE",
+          "accuracy": null
+        },
+        "Greedy": {
+          "time": 1.71661376953125e-05,
+          "cover_size": 5,
+          "status": "PARTIAL",
+          "accuracy": null
+        }
+      }
+    },
+    {
+      "name": "large_1",
+      "universe_size": 30,
+      "num_sets": 14,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0016460418701171875,
+          "cover_size": 6,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 2.0265579223632812e-05,
+          "cover_size": 6,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "large_2",
+      "universe_size": 30,
+      "num_sets": 14,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0043795108795166016,
+          "cover_size": 8,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 2.6702880859375e-05,
+          "cover_size": 8,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xlarge_1",
+      "universe_size": 35,
+      "num_sets": 16,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.009014606475830078,
+          "cover_size": 7,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.0994415283203125e-05,
+          "cover_size": 7,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xlarge_2",
+      "universe_size": 35,
+      "num_sets": 16,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.0011372566223144531,
+          "cover_size": 5,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 2.6464462280273438e-05,
+          "cover_size": 5,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_1",
+      "universe_size": 40,
+      "num_sets": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.03776693344116211,
+          "cover_size": 8,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.552436828613281e-05,
+          "cover_size": 8,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    },
+    {
+      "name": "xxlarge_2",
+      "universe_size": 40,
+      "num_sets": 18,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.007147789001464844,
+          "cover_size": 6,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 3.5762786865234375e-05,
+          "cover_size": 7,
+          "status": "COMPLETE",
+          "accuracy": 85.71428571428571
+        }
+      }
+    },
+    {
+      "name": "huge_1",
+      "universe_size": 50,
+      "num_sets": 22,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.3232147693634033,
+          "cover_size": 8,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 6.175041198730469e-05,
+          "cover_size": 9,
+          "status": "COMPLETE",
+          "accuracy": 88.88888888888889
+        }
+      }
+    },
+    {
+      "name": "huge_2",
+      "universe_size": 50,
+      "num_sets": 22,
+      "algorithms": {
+        "Bruteforce": {
+          "time": 0.036486148834228516,
+          "cover_size": 6,
+          "status": "OPTIMAL",
+          "accuracy": 100.0
+        },
+        "Greedy": {
+          "time": 4.7206878662109375e-05,
+          "cover_size": 6,
+          "status": "COMPLETE",
+          "accuracy": 100.0
+        }
+      }
+    }
+  ]
+}

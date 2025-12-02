@@ -1,0 +1,338 @@
+[
+  {
+    "name": "tiny_1",
+    "n_vertices": 6,
+    "algorithms": {
+      "Backtracking": {
+        "time": 2.3365020751953125e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 1.4781951904296875e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 4.5299530029296875e-06,
+        "num_colors": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "tiny_2",
+    "n_vertices": 6,
+    "algorithms": {
+      "Backtracking": {
+        "time": 7.867813110351562e-06,
+        "num_colors": 2,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 7.152557373046875e-06,
+        "num_colors": 2,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.5762786865234375e-06,
+        "num_colors": 2,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_1",
+    "n_vertices": 8,
+    "algorithms": {
+      "Backtracking": {
+        "time": 2.09808349609375e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 1.1920928955078125e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.0994415283203125e-06,
+        "num_colors": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_2",
+    "n_vertices": 8,
+    "algorithms": {
+      "Backtracking": {
+        "time": 6.9141387939453125e-06,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 1.239776611328125e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.337860107421875e-06,
+        "num_colors": 4,
+        "accuracy": 75.0
+      }
+    }
+  },
+  {
+    "name": "medium_1",
+    "n_vertices": 10,
+    "algorithms": {
+      "Backtracking": {
+        "time": 3.552436828613281e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 1.6689300537109375e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 4.0531158447265625e-06,
+        "num_colors": 4,
+        "accuracy": 75.0
+      }
+    }
+  },
+  {
+    "name": "medium_2",
+    "n_vertices": 10,
+    "algorithms": {
+      "Backtracking": {
+        "time": 1.0251998901367188e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 1.5735626220703125e-05,
+        "num_colors": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 3.814697265625e-06,
+        "num_colors": 4,
+        "accuracy": 75.0
+      }
+    }
+  },
+  {
+    "name": "medium_large_1",
+    "n_vertices": 12,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.00010967254638671875,
+        "num_colors": 4,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 2.288818359375e-05,
+        "num_colors": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 5.245208740234375e-06,
+        "num_colors": 4,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "medium_large_2",
+    "n_vertices": 12,
+    "algorithms": {
+      "Backtracking": {
+        "time": 4.8160552978515625e-05,
+        "num_colors": 4,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 2.384185791015625e-05,
+        "num_colors": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 4.76837158203125e-06,
+        "num_colors": 5,
+        "accuracy": 80.0
+      }
+    }
+  },
+  {
+    "name": "large_1",
+    "n_vertices": 14,
+    "algorithms": {
+      "Backtracking": {
+        "time": 4.291534423828125e-05,
+        "num_colors": 4,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 3.552436828613281e-05,
+        "num_colors": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.049041748046875e-05,
+        "num_colors": 5,
+        "accuracy": 80.0
+      }
+    }
+  },
+  {
+    "name": "large_2",
+    "n_vertices": 14,
+    "algorithms": {
+      "Backtracking": {
+        "time": 9.655952453613281e-05,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 3.552436828613281e-05,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 6.67572021484375e-06,
+        "num_colors": 6,
+        "accuracy": 83.33333333333334
+      }
+    }
+  },
+  {
+    "name": "xlarge_1",
+    "n_vertices": 16,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.008098363876342773,
+        "num_colors": 6,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 4.696846008300781e-05,
+        "num_colors": 6,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 7.152557373046875e-06,
+        "num_colors": 6,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xlarge_2",
+    "n_vertices": 16,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.0007545948028564453,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 4.9591064453125e-05,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 8.106231689453125e-06,
+        "num_colors": 6,
+        "accuracy": 83.33333333333334
+      }
+    }
+  },
+  {
+    "name": "xxlarge_1",
+    "n_vertices": 18,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.0010483264923095703,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 5.8650970458984375e-05,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 8.58306884765625e-06,
+        "num_colors": 5,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xxlarge_2",
+    "n_vertices": 18,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.0009152889251708984,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 6.747245788574219e-05,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 9.298324584960938e-06,
+        "num_colors": 5,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "huge_1",
+    "n_vertices": 22,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.004775285720825195,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 0.00010323524475097656,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.2636184692382812e-05,
+        "num_colors": 6,
+        "accuracy": 83.33333333333334
+      }
+    }
+  },
+  {
+    "name": "huge_2",
+    "n_vertices": 22,
+    "algorithms": {
+      "Backtracking": {
+        "time": 0.015338420867919922,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "DSatur": {
+        "time": 9.72747802734375e-05,
+        "num_colors": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.1682510375976562e-05,
+        "num_colors": 6,
+        "accuracy": 83.33333333333334
+      }
+    }
+  }
+]

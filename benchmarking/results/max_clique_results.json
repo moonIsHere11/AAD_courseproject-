@@ -1,0 +1,258 @@
+[
+  {
+    "name": "tiny_1",
+    "n_vertices": 6,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.71661376953125e-05,
+        "clique_size": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.811981201171875e-05,
+        "clique_size": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "tiny_2",
+    "n_vertices": 6,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 1.3589859008789062e-05,
+        "clique_size": 2,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 6.4373016357421875e-06,
+        "clique_size": 2,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_1",
+    "n_vertices": 8,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 5.0067901611328125e-05,
+        "clique_size": 2,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 5.7220458984375e-06,
+        "clique_size": 2,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "small_2",
+    "n_vertices": 8,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 3.743171691894531e-05,
+        "clique_size": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 7.3909759521484375e-06,
+        "clique_size": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "medium_1",
+    "n_vertices": 10,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.00020742416381835938,
+        "clique_size": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 7.62939453125e-06,
+        "clique_size": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "medium_2",
+    "n_vertices": 10,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.00018644332885742188,
+        "clique_size": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 7.867813110351562e-06,
+        "clique_size": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "medium_large_1",
+    "n_vertices": 12,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0007634162902832031,
+        "clique_size": 3,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 9.298324584960938e-06,
+        "clique_size": 3,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "medium_large_2",
+    "n_vertices": 12,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.000705718994140625,
+        "clique_size": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 9.298324584960938e-06,
+        "clique_size": 3,
+        "accuracy": 75.0
+      }
+    }
+  },
+  {
+    "name": "large_1",
+    "n_vertices": 14,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.003114461898803711,
+        "clique_size": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.2159347534179688e-05,
+        "clique_size": 4,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "large_2",
+    "n_vertices": 14,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.0027818679809570312,
+        "clique_size": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.4543533325195312e-05,
+        "clique_size": 4,
+        "accuracy": 80.0
+      }
+    }
+  },
+  {
+    "name": "xlarge_1",
+    "n_vertices": 16,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.01001429557800293,
+        "clique_size": 6,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.7881393432617188e-05,
+        "clique_size": 6,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xlarge_2",
+    "n_vertices": 16,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.012502193450927734,
+        "clique_size": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.3113021850585938e-05,
+        "clique_size": 4,
+        "accuracy": 80.0
+      }
+    }
+  },
+  {
+    "name": "xxlarge_1",
+    "n_vertices": 18,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.046181440353393555,
+        "clique_size": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 1.5735626220703125e-05,
+        "clique_size": 4,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "xxlarge_2",
+    "n_vertices": 18,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.052464962005615234,
+        "clique_size": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 4.1961669921875e-05,
+        "clique_size": 4,
+        "accuracy": 100.0
+      }
+    }
+  },
+  {
+    "name": "huge_1",
+    "n_vertices": 22,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.6991586685180664,
+        "clique_size": 5,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 4.7206878662109375e-05,
+        "clique_size": 4,
+        "accuracy": 80.0
+      }
+    }
+  },
+  {
+    "name": "huge_2",
+    "n_vertices": 22,
+    "algorithms": {
+      "Bruteforce": {
+        "time": 0.7374119758605957,
+        "clique_size": 4,
+        "accuracy": 100.0
+      },
+      "Greedy": {
+        "time": 5.3882598876953125e-05,
+        "clique_size": 4,
+        "accuracy": 100.0
+      }
+    }
+  }
+]
